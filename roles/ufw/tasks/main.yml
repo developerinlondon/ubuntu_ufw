@@ -6,3 +6,5 @@
 - name: enable service
   ufw:
     state: "enabled"
+- name: allow ssh
+  command: ufw allow ssh
