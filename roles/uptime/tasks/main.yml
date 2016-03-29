@@ -1,0 +1,5 @@
+---
+- name: display uptime
+  command: uptime
+  retries: 3
+  delay: 10

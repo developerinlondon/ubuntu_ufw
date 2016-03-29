@@ -1,0 +1,8 @@
+---
+- name: Uptime
+  hosts: all
+  become: true
+  become_user: root
+
+  roles:
+    - uptime

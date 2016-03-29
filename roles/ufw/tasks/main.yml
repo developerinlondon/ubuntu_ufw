@@ -6,5 +6,5 @@
 - name: enable service
   ufw:
     state: "enabled"
-- name: allow ssh
-  command: ufw allow ssh
+- name: Allow ssh traffic
+  ufw: rule=allow port=22 proto=tcp

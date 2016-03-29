@@ -1,10 +1,10 @@
 ---
-- name: Upgrades and Dist-Upgrades servers
+- name: Bootstrap
   hosts: all
   become: true
   become_user: root
 
   roles:
-    - upgrade
+    - patch
     - ufw
-    - reboot
+#    - reboot

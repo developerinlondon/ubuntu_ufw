@@ -4,3 +4,10 @@ Ubuntu Server using Vagrant that has Ansible playbook to:
 * UFW enabled
 * Reboot the server
 * display the systems uptime.
+
+Usage:
+
+clone this repo locally then run:
+
+`vagrant up`
+
