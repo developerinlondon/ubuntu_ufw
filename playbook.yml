@@ -6,3 +6,5 @@
 
   roles:
     - upgrade
+    - ufw
+    - reboot

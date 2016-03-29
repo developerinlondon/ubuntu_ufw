@@ -1,0 +1,8 @@
+---
+- name: reboot server
+  command: shutdown -r now "Ansible updates triggered"
+  async: 0
+  poll: 0
+  ignore_errors: true
+- name: display uptime
+  command: uptime

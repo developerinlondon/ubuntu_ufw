@@ -1,0 +1,8 @@
+---
+- name: Installing ufw package
+  apt:
+    pkg: "ufw"
+    state: present
+- name: enable service
+  ufw:
+    state: "enabled"
