@@ -1,4 +1,4 @@
-Ubuntu Server using Vagrant that has 
+Ubuntu Server using Vagrant that has Ansible playbook to:
 * patch server
 * UFW installed 
 * UFW enabled

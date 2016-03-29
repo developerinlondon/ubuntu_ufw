@@ -1,1 +1,8 @@
---
+---
+- name: Upgrades and Dist-Upgrades servers
+  hosts: all
+  become: true
+  become_user: root
+
+  roles:
+    - upgrade
